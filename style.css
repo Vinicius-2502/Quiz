@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #00008b;
+}
+
+h2 {
+  font-family: "oxanium";
+  color: #00008b;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "inter";
+  color: mediumblue;
+}
+
+body {
+  background: #e6e6fa;
+}
+
+header {
+  background: #7b68ee;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #1e90ff;
+}
+
+label {
+  color: #0000cd;
+  padding: 0.3rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 0.6rem;
+  color: #0000cd;
+  border: solid 2px #00bfff;
+  background: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+input[type="file"] {
+  color: #0000cd;
+}
+
+input::placeholder {
+  color: #00008b;
+}
+
+select {
+  cursor: pointer;
+  background: #7b68ee;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+img {
+  width: 10rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #7b68ee;
+  color: #00008b;
+  padding: 1rem;
+}
+
+td {
+  color: #0000cd;
+  padding: 1rem;
+  text-align: center;
+}
+
+tfoot td {
+  background: #1e90ff;
+  color: white;
+  font-size: 1.25rem;
+}
+
+details {
+  background: #9370db;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+summary {
+  color: #00008b;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+ol {
+  color: #191970;
+  margin-left: 1.5rem;
+}
+
+li {
+  padding: 0.2rem;
+}
+
+footer {
+  background: #9370db;
+  padding: 2rem;
+  text-align: center;
+}
+
+.paragrafo-footer {
+  width: 100%;
+  gap: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
