@@ -238,8 +238,6 @@ const ResultPage = () => {
   document.getElementById("voltar").onclick = () => {
     InitialPage()
   }
-  file()
+  
 }
-
-
 InitialPage()

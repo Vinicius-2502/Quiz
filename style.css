@@ -67,6 +67,10 @@ input[type="date"] {
 
 input[type="file"] {
   color: #0000cd;
+  font-size: 1rem;
+  font-family: "inter";
+  text-align: center;
+  justify-content: center;margin-top: 0.3rem;
 }
 
 select {
